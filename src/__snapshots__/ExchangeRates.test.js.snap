@@ -1,0 +1,487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Exchange Rate data 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ExchangeRates
+    rates={
+      Object {
+        "base": "EUR",
+        "date": "2018-11-07",
+        "rates": Object {
+          "AUD": 1.575,
+          "BGN": 1.9558,
+        },
+      }
+    }
+    ratesFetched={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <thead>
+          <tr>
+            <td>
+              <strong>
+                EUR
+                 - 
+                2018-11-07
+              </strong>
+            </td>
+          </tr>
+        </thead>,
+        <tbody>
+          <tr>
+            <td>
+              AUD
+            </td>
+            <td>
+              1.575
+            </td>
+          </tr>
+          <tr>
+            <td>
+              BGN
+            </td>
+            <td>
+              1.9558
+            </td>
+          </tr>
+        </tbody>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <tr>
+            <td>
+              <strong>
+                EUR
+                 - 
+                2018-11-07
+              </strong>
+            </td>
+          </tr>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <td>
+              <strong>
+                EUR
+                 - 
+                2018-11-07
+              </strong>
+            </td>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <strong>
+                EUR
+                 - 
+                2018-11-07
+              </strong>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "EUR",
+                  " - ",
+                  "2018-11-07",
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "EUR",
+                " - ",
+                "2018-11-07",
+              ],
+              "type": "strong",
+            },
+            "type": "td",
+          },
+          "type": "tr",
+        },
+        "type": "thead",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <tr>
+              <td>
+                AUD
+              </td>
+              <td>
+                1.575
+              </td>
+            </tr>,
+            <tr>
+              <td>
+                BGN
+              </td>
+              <td>
+                1.9558
+              </td>
+            </tr>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "AUD",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  AUD
+                </td>,
+                <td>
+                  1.575
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "AUD",
+                },
+                "ref": null,
+                "rendered": "AUD",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 1.575,
+                },
+                "ref": null,
+                "rendered": 1.575,
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+          Object {
+            "instance": null,
+            "key": "BGN",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <td>
+                  BGN
+                </td>,
+                <td>
+                  1.9558
+                </td>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "BGN",
+                },
+                "ref": null,
+                "rendered": "BGN",
+                "type": "td",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": 1.9558,
+                },
+                "ref": null,
+                "rendered": 1.9558,
+                "type": "td",
+              },
+            ],
+            "type": "tr",
+          },
+        ],
+        "type": "tbody",
+      },
+    ],
+    "type": "table",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <thead>
+            <tr>
+              <td>
+                <strong>
+                  EUR
+                   - 
+                  2018-11-07
+                </strong>
+              </td>
+            </tr>
+          </thead>,
+          <tbody>
+            <tr>
+              <td>
+                AUD
+              </td>
+              <td>
+                1.575
+              </td>
+            </tr>
+            <tr>
+              <td>
+                BGN
+              </td>
+              <td>
+                1.9558
+              </td>
+            </tr>
+          </tbody>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <tr>
+              <td>
+                <strong>
+                  EUR
+                   - 
+                  2018-11-07
+                </strong>
+              </td>
+            </tr>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <td>
+                <strong>
+                  EUR
+                   - 
+                  2018-11-07
+                </strong>
+              </td>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <strong>
+                  EUR
+                   - 
+                  2018-11-07
+                </strong>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "EUR",
+                    " - ",
+                    "2018-11-07",
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "EUR",
+                  " - ",
+                  "2018-11-07",
+                ],
+                "type": "strong",
+              },
+              "type": "td",
+            },
+            "type": "tr",
+          },
+          "type": "thead",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <tr>
+                <td>
+                  AUD
+                </td>
+                <td>
+                  1.575
+                </td>
+              </tr>,
+              <tr>
+                <td>
+                  BGN
+                </td>
+                <td>
+                  1.9558
+                </td>
+              </tr>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "AUD",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    AUD
+                  </td>,
+                  <td>
+                    1.575
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "AUD",
+                  },
+                  "ref": null,
+                  "rendered": "AUD",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 1.575,
+                  },
+                  "ref": null,
+                  "rendered": 1.575,
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+            Object {
+              "instance": null,
+              "key": "BGN",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <td>
+                    BGN
+                  </td>,
+                  <td>
+                    1.9558
+                  </td>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "BGN",
+                  },
+                  "ref": null,
+                  "rendered": "BGN",
+                  "type": "td",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": 1.9558,
+                  },
+                  "ref": null,
+                  "rendered": 1.9558,
+                  "type": "td",
+                },
+              ],
+              "type": "tr",
+            },
+          ],
+          "type": "tbody",
+        },
+      ],
+      "type": "table",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

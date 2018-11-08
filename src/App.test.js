@@ -1,9 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import { shallow } from 'enzyme';
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+import { App }  from './App';
+import ExchangeRates from './ExchangeRates';
+
+let wrapper, fetchRates;
+
+beforeEach(() => {
+  fetchRates = jest.fn();
+  wrapper = shallow(<App fetchRates={fetchRates} />);
 });
+
+it('should render button and ExchangeRates component ', () => {
+  expect(wrapper.find('.fetchButton').length).toEqual(1);
+  expect(wrapper.find(ExchangeRates).length).toEqual(1);
+}); 
+
+it('should call fetchRates function ', () => {
+  wrapper.find('.fetchButton').simulate('click');
+  expect(fetchRates).toHaveBeenCalled();
+}); 
